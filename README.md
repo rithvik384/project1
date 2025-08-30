@@ -1,15 +1,24 @@
 # Academic Management System
 
 ## Description
-A console-based C++ system for managing teachers and students.
+This is a console-based **Academic Management System** written in C++.  
+It allows **teachers and students** to manage timetables and attendance in a simple, interactive way.
 
-- Teachers can create their timetable, mark and view student attendance.
-- Students can create their timetable, mark and view their own attendance.
-- Attendance warnings appear if below 75%.
-- Data is saved persistently in files.
+- **Teachers** can:
+  - Create and view their timetable
+  - Mark and view student attendance
+- **Students** can:
+  - Create and view their semester timetable
+  - Mark their attendance and receive warnings if attendance falls below 75%
+- All data is **saved persistently in files**, so it remains even after closing the program.
+
+---
 
 ## Features
-- Teacher & Student login
-- Timetable creation & viewing
-- Attendance marking & warning
-- Persistent storage using files
+- Teacher & Student login system with IDs and passwords
+- Dynamic Timetable creation & viewing
+- Attendance marking with automatic warning for low attendance
+- File handling for persistent storage
+- Easy-to-use text-based menus
+
+---
